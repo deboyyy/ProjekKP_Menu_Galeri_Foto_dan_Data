@@ -1,0 +1,142 @@
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.navigation-bar {
+    top: 0;
+    bottom: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.bg-topbar {
+    background-image: url('./frontend/images/pucukrebung.png');
+    background-size: contain;
+    background-color: #002E94;
+    height: 35px;
+    width: 100%;
+}
+
+.container-kebencanaan {
+    background-color: #ec8609;
+    color: #002E94;
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 70px;
+    color: #002E94;
+}
+
+/* .container-longsor{
+    background-color: #ec8609;
+    color:#002E94;
+    width:100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.container-banjir{
+    background-color: #ec8609;
+    color:#002E94;
+    width:100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.container-lahan{
+    background-color: #ec8609;
+    color:#002E94;
+    width:100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.container-angin{
+    background-color: #ec8609;
+    color:#002E94;
+    width:100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.h3-container{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.container-text{
+    margin-top: 10px;
+    margin-left: 10px;
+} */
+.container-select {
+    width: 10%;
+    margin-left: 155px;
+    margin-top: 0px;
+}
+
+/* .txt{
+    color: white;
+}
+/* .sosmed{
+    width: 30px;
+    height: 30px;
+}
+.menus{
+    color: white;
+    text-decoration: none; 
+}*/
+/* .subscriber{
+    color: white;
+}
+
+
+
+.container-footer{
+    height: 7vh;
+    color: white;
+    background-color: #002E94;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.text-logo {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.txt {
+    color: white;
+}
+
+.subscriber {
+    color: white;
+}
+
+.container-footer {
+    height: 7vh;
+    color: white;
+    background-color: #002E94;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

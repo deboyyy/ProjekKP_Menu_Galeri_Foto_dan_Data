@@ -1,0 +1,77 @@
+.responsive{
+    width: 100%;
+    height: auto;
+  }
+
+.navigation-bar{
+    top: 0;
+    bottom: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.bg-topbar{
+    background-image: url('./frontend/images/pucukrebung.png');
+    background-size: contain;
+    background-color: #002E94;
+    height: 35px;
+    width: 100%;
+  }
+
+body{
+  background-color: #FDA769;
+  height: 100%;
+  width: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+
+.card-body{
+  background-color: #ec8609;
+ 
+}
+
+.berita{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt{
+  color: white;
+}
+
+
+/* .sosmed{
+  width: 30px;
+  height: 30px;
+}
+.menus{
+  color: white;
+  text-decoration: none;
+}
+ */
+.subscriber{
+  color: white;
+}
+.img{
+  width: 50%;
+  height: 50%;
+}
+
+.text-logo{
+  margin-left: 10px;
+  margin-top: 10px;
+  color: white;
+}
+.container-footer{
+  height: 7vh;
+  color: white;
+  background-color: #002E94;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

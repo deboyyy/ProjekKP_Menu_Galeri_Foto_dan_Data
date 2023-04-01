@@ -1,0 +1,192 @@
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* body {
+    width: 100vw;
+    overflow-x: hidden;
+} */
+
+/* NAVBAR */
+.navigation-bar {
+  top: 0;
+  bottom: auto;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.bg-topbar {
+  background-image: url('./frontend/images/pucukrebung.png');
+  background-size: contain;
+  background-color: #002e94;
+  height: 35px;
+  width: 100%;
+}
+
+.container-content {
+  height: auto;
+  width: auto;
+}
+
+.img-content {
+  height: 100%;
+  width: 100%;
+}
+
+.content-all {
+  overflow-x: hidden;
+}
+
+.card-body {
+  height: 100%;
+  width: 100%;
+}
+
+.berita {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.berita-row1 {}
+
+.strk {
+  background-color: #ec8609;
+}
+
+.strk .h1-strk {
+  color: white;
+}
+
+.strukturorganisasi {
+  background-color: #ec8609;
+  text-align: center;
+}
+
+/* .kontak {
+    height: 100%;
+    width: 100%;
+} */
+
+.vsms {
+  background-color: #ec8609;
+  /* height: 100%;
+    width: 100%; */
+}
+
+.visimisi {
+  text-align: center;
+  background-color: #ec8609;
+}
+
+.visimisi .h1-visimisi {
+  color: white;
+}
+
+.sjrh {
+  background-color: white;
+}
+
+/* CONTENT */
+.container-kebencanaan {
+  background-color: #ec8609;
+  color: #002e94;
+  height: auto;
+  width: 100%;
+  margin-top: -50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-container {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 70px;
+  color: #002e94;
+}
+
+.h1-containerinput {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  color: #002e94;
+}
+
+.container-paragraf {
+  margin-top: 150px;
+  margin-bottom: 200px;
+  height: 600px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .h5-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50);
+} */
+.card-body .btn {
+  border-radius: 20px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 50%;
+  height: 50%;
+}
+
+.text-logo {
+  margin-left: 10px;
+  margin-top: 10px;
+  color: white;
+}
+
+.txt {
+  color: white;
+}
+
+.subscriber {
+  color: white;
+}
+
+.container-footer {
+  height: 7vh;
+  color: white;
+  background-color: #002e94;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .ul-footer{
+    color: #ffff;
+}
+.li-footer{
+    color: white;
+    list-style-type: none; 
+} */
+/* .container-copy{
+    
+    height: 2vh;
+    background-color: #002E94
+} */

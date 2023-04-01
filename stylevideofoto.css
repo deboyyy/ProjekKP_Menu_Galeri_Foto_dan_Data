@@ -1,0 +1,182 @@
+:root {
+    --purple: #563f2e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html{
+    font-size: 62.5%;
+} */
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* NAVBAR */
+.navigation-bar {
+    top: 0;
+    bottom: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.bg-topbar {
+    background-image: url('./frontend/images/pucukrebung.png');
+    background-size: contain;
+    background-color: #002E94;
+    height: 35px;
+    width: 100%;
+}
+
+/* CONTENT */
+.container-kebencanaan {
+    background-color: #ec8609;
+    color: #002E94;
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 70px;
+    color: #002E94;
+}
+
+.container .heading {
+    font-size: 3rem;
+    margin: 2rem 0;
+    text-transform: capitalize;
+    color: var(--purple);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: .2rem;
+    text-align: center;
+    text-shadow: 0. 3rem .5rem rgba(0, 0, 0, .5);
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.video-container .video {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    height: 15rem;
+    width: 25rem;
+    margin: 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 5);
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.video-container .video video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.video-container .video video:hover {
+    transition: .2s linear;
+    transform: scale(1.3);
+}
+
+.video-container .video .active {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: 80%;
+    box-shadow: 0 0 0 100vh rgba(0, 0, 0, .7);
+    z-index: 1;
+}
+
+.video-container .video .active:hover {
+    transition: none;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.text-logo {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.txt {
+    color: white;
+}
+
+.subscriber {
+    color: white;
+}
+
+.container-footer {
+    height: 7vh;
+    color: white;
+    background-color: #002E94;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOTO */
+.foto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    top: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+    margin: 10px;
+    align-items: center;
+    grid-gap: 50px;
+}
+
+.konten {
+    /* object-fit: cover; */
+}
+
+/* .grid > .konten{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+} */
+.grid>.konten:hover {
+    /* transform: rotate(15deg);*/
+    /*transform: scale(0.5); /*zoom out*/
+    transform: scale(1.1);
+    /*zoom*/
+    /*transform: translate(50px);*/
+}
+
+@media (max-width:1000px) {
+    .grid {
+        grid-template-columns: repeat(2, ifr);
+    }
+}
+
+@media (max-width:800px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
